@@ -1,0 +1,53 @@
+2025-09-19 10:29:26,255 - smart_grid_fault_detection - INFO - Smart Grid Fault Detection Application initialized
+2025-09-19 10:29:26,255 - smart_grid_fault_detection - INFO - ============================================================
+2025-09-19 10:29:26,256 - smart_grid_fault_detection - INFO - Starting Smart Grid Fault Detection Pipeline
+2025-09-19 10:29:26,256 - smart_grid_fault_detection - INFO - ============================================================
+2025-09-19 10:29:26,256 - smart_grid_fault_detection - INFO - Step 1: Loading and preprocessing data
+2025-09-19 10:29:26,256 - smart_grid_fault_detection - ERROR - Pipeline failed: Data file not found: C:\Users\Pranav\OneDrive\Desktop\SIH\assets\smart_grid_dataset.csv
+2025-09-19 10:29:26,256 - smart_grid_fault_detection - ERROR - Application failed: Data file not found: C:\Users\Pranav\OneDrive\Desktop\SIH\assets\smart_grid_dataset.csv
+2025-09-19 10:30:29,408 - smart_grid_fault_detection - INFO - Smart Grid Fault Detection Application initialized
+2025-09-19 10:30:29,408 - smart_grid_fault_detection - INFO - ============================================================
+2025-09-19 10:30:29,409 - smart_grid_fault_detection - INFO - Starting Smart Grid Fault Detection Pipeline
+2025-09-19 10:30:29,409 - smart_grid_fault_detection - INFO - ============================================================
+2025-09-19 10:30:29,409 - smart_grid_fault_detection - INFO - Step 1: Loading and preprocessing data
+2025-09-19 10:30:29,560 - smart_grid_fault_detection - INFO - Data Summary: {'total_records': 50000, 'total_features': 17, 'fault_cases': np.int64(15004), 'fault_percentage': np.float64(30.008000000000003), 'missing_values': np.int64(0), 'feature_columns': ['Voltage (V)', 'Current (A)', 'Power Consumption (kW)', 'Reactive Power (kVAR)', 'Power Factor', 'Solar Power (kW)', 'Wind Power (kW)', 'Grid Supply (kW)', 'Voltage Fluctuation (%)', 'Temperature (°C)', 'Humidity (%)', 'Electricity Price (USD/kWh)', 'Overload Condition', 'Transformer Fault'], 'data_types': {'Timestamp': dtype('O'), 'Voltage (V)': dtype('float64'), 'Current (A)': dtype('float64'), 'Power Consumption (kW)': dtype('float64'), 'Reactive Power (kVAR)': dtype('float64'), 'Power Factor': dtype('float64'), 'Solar Power (kW)': dtype('float64'), 'Wind Power (kW)': dtype('float64'), 'Grid Supply (kW)': dtype('float64'), 'Voltage Fluctuation (%)': dtype('float64'), 'Overload Condition': dtype('int64'), 'Transformer Fault': dtype('int64'), 'Temperature (°C)': dtype('float64'), 'Humidity (%)': dtype('float64'), 'Electricity Price (USD/kWh)': dtype('float64'), 'Predicted Load (kW)': dtype('float64'), 'Broken_Line_Fault': dtype('int64')}}
+2025-09-19 10:30:29,560 - smart_grid_fault_detection - INFO - Step 2: Generating synthetic fault data
+2025-09-19 10:30:31,226 - smart_grid_fault_detection - INFO - Step 3: Training neural network model
+2025-09-19 10:31:34,596 - smart_grid_fault_detection - INFO - Step 4: Creating visualizations
+2025-09-19 10:33:13,020 - smart_grid_fault_detection - INFO - Step 5: Saving model and generating report
+2025-09-19 10:33:13,055 - smart_grid_fault_detection - INFO - 
+========================================
+2025-09-19 10:33:13,056 - smart_grid_fault_detection - INFO - FINAL RESULTS
+2025-09-19 10:33:13,056 - smart_grid_fault_detection - INFO - ========================================
+2025-09-19 10:33:13,056 - smart_grid_fault_detection - INFO - Accuracy:  0.9957
+2025-09-19 10:33:13,056 - smart_grid_fault_detection - INFO - Precision: 0.9869
+2025-09-19 10:33:13,058 - smart_grid_fault_detection - INFO - Recall:    1.0000
+2025-09-19 10:33:13,058 - smart_grid_fault_detection - INFO - F1-Score:  0.9934
+2025-09-19 10:33:13,058 - smart_grid_fault_detection - INFO - ROC-AUC:   1.0000
+2025-09-19 10:33:13,059 - smart_grid_fault_detection - INFO - Model saved to: C:\Users\Pranav\OneDrive\Desktop\SIH\models\best_neural_network_model.h5
+2025-09-19 10:33:13,059 - smart_grid_fault_detection - INFO - Reports saved to: C:\Users\Pranav\OneDrive\Desktop\SIH\reports
+2025-09-19 10:33:13,060 - smart_grid_fault_detection - INFO - ============================================================
+2025-09-19 10:33:13,109 - smart_grid_fault_detection - INFO - ============================================================
+2025-09-19 10:34:04,389 - smart_grid_fault_detection - INFO - Smart Grid Fault Detection Application initialized
+2025-09-19 10:34:04,390 - smart_grid_fault_detection - INFO - ============================================================
+2025-09-19 10:34:04,390 - smart_grid_fault_detection - INFO - Starting Smart Grid Fault Detection Pipeline
+2025-09-19 10:34:04,390 - smart_grid_fault_detection - INFO - ============================================================
+2025-09-19 10:34:04,390 - smart_grid_fault_detection - INFO - Step 1: Loading and preprocessing data
+2025-09-19 10:34:04,523 - smart_grid_fault_detection - INFO - Data Summary: {'total_records': 50000, 'total_features': 17, 'fault_cases': np.int64(15004), 'fault_percentage': np.float64(30.008000000000003), 'missing_values': np.int64(0), 'feature_columns': ['Voltage (V)', 'Current (A)', 'Power Consumption (kW)', 'Reactive Power (kVAR)', 'Power Factor', 'Solar Power (kW)', 'Wind Power (kW)', 'Grid Supply (kW)', 'Voltage Fluctuation (%)', 'Temperature (°C)', 'Humidity (%)', 'Electricity Price (USD/kWh)', 'Overload Condition', 'Transformer Fault'], 'data_types': {'Timestamp': dtype('O'), 'Voltage (V)': dtype('float64'), 'Current (A)': dtype('float64'), 'Power Consumption (kW)': dtype('float64'), 'Reactive Power (kVAR)': dtype('float64'), 'Power Factor': dtype('float64'), 'Solar Power (kW)': dtype('float64'), 'Wind Power (kW)': dtype('float64'), 'Grid Supply (kW)': dtype('float64'), 'Voltage Fluctuation (%)': dtype('float64'), 'Overload Condition': dtype('int64'), 'Transformer Fault': dtype('int64'), 'Temperature (°C)': dtype('float64'), 'Humidity (%)': dtype('float64'), 'Electricity Price (USD/kWh)': dtype('float64'), 'Predicted Load (kW)': dtype('float64'), 'Broken_Line_Fault': dtype('int64')}}
+2025-09-19 10:34:04,523 - smart_grid_fault_detection - INFO - Step 2: Skipping synthetic data generation
+2025-09-19 10:34:04,524 - smart_grid_fault_detection - INFO - Step 3: Training neural network model
+2025-09-19 10:34:57,909 - smart_grid_fault_detection - INFO - Step 4: Creating visualizations
+2025-09-19 10:35:04,206 - smart_grid_fault_detection - INFO - Step 5: Saving model and generating report
+2025-09-19 10:35:04,275 - smart_grid_fault_detection - INFO - 
+========================================
+2025-09-19 10:35:04,276 - smart_grid_fault_detection - INFO - FINAL RESULTS
+2025-09-19 10:35:04,277 - smart_grid_fault_detection - INFO - ========================================
+2025-09-19 10:35:04,277 - smart_grid_fault_detection - INFO - Accuracy:  0.9991
+2025-09-19 10:35:04,277 - smart_grid_fault_detection - INFO - Precision: 0.9983
+2025-09-19 10:35:04,278 - smart_grid_fault_detection - INFO - Recall:    0.9987
+2025-09-19 10:35:04,278 - smart_grid_fault_detection - INFO - F1-Score:  0.9985
+2025-09-19 10:35:04,278 - smart_grid_fault_detection - INFO - ROC-AUC:   1.0000
+2025-09-19 10:35:04,279 - smart_grid_fault_detection - INFO - Model saved to: C:\Users\Pranav\OneDrive\Desktop\SIH\models\best_neural_network_model.h5
+2025-09-19 10:35:04,279 - smart_grid_fault_detection - INFO - Reports saved to: C:\Users\Pranav\OneDrive\Desktop\SIH\reports
+2025-09-19 10:35:04,279 - smart_grid_fault_detection - INFO - ============================================================
+2025-09-19 10:35:04,282 - smart_grid_fault_detection - INFO - ============================================================
