@@ -54,6 +54,13 @@ smart-grid-fault-detection/
 - Python 3.11 or higher
 - pip or uv package manager
 
+### Pull the Repository
+
+```bash
+    git init
+    git pull https://github.com/Pranav-cmyk/SIH.git
+```
+
 ### Install Dependencies
 
 Using pip:
