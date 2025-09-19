@@ -77,7 +77,7 @@ uv sync
 
 ### Basic Usage
 
-Run the system with default settings:
+Run the system with default settings (Not Recommended On First Use, Use the --show-plots flag for development):
 ```bash
 uv run main.py
 ```
